@@ -1,0 +1,19 @@
+Package: YS
+Title: Outils d'Analyse pour la Data Science Agricole
+Version: 0.1.0
+Authors@R:
+    person("Sabri", "Youssef", email = "youssef.sabri@iav.ac.ma", role = c("aut", "cre"))
+Description: Un ensemble de fonctions pour calculer des indices agro-climatiques,
+    analyser les rendements, et traiter des données de capteurs agricoles.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.0.0)
+Imports:
+    dplyr,
+    ggplot2
+Suggests:
+    testthat (>= 3.0.0)
+LazyData: true
+Config/roxygen2/version: 8.0.0
+Config/testthat/edition: 3
